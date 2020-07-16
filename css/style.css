@@ -1,0 +1,79 @@
+/*Basic Css Start*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+clear {
+    overflow: hidden;
+}
+
+/*Basic Css End*/
+/* header area start*/
+.header-area{
+    background: #fcdb00;
+    padding: 30px 0;
+}
+.manu ul li a{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #010101 !important; 
+}
+.manu ul li{
+    padding: 0px 30px;
+}
+/* slider area start */
+.slider{
+    background: #fcdb00;
+}
+.Inspire ul li i{
+    font-size: 50px;
+    color: black;
+    padding: 15px;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    bottom: 60px;
+}
+.carousel-indicators li:hover{
+    background-color: black;
+}
+.carousel-indicators li:active{
+    background-color: black;
+}
+/* slider area end */
+
+/* header area end*/
+/*font-family: 'PT Sans', sans-serif;*/

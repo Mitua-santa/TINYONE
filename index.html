@@ -1,24 +1,188 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2nd e-commerce site</title>
-    <!--Fontawesome start-->
-<link rel="stylesheet" href="css/all.min.css">
-<!--Fontawesome end-->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TINYONE</title>
+  <!--font here-->
+  <!-- google font start -->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+    <!-- google font end -->
+  <!--Fontawesome start-->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!--Fontawesome end-->
+   <!-- bootstrap start -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- bootstrap end -->
+   <!-- main css style start -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- main css style end-->
 </head>
+
 <body>
-    <!--header and brand icon part start-->
+  <!--header and brand icon part start-->
+  <header class="header-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+               <!-- insert your logo/Brand image -->
+               <img src="img/logo.png" alt="logo not found" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <!--header and brand icon part end-->
+            <div class="collapse manu navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+              </ul>
+              
+            </div>
+          </nav>
 
-    <!--for js file-->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--header and brand icon part end-->
+<!-- slider/ banner part -->
+<section class="slider">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <!--slides start -->
+          <div class="carousel-inner">
+            <!-- First Slide start -->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-5 col-sm-5 col-5 ml-auto">
+                  <!-- it's for content -->
+                  <div class="Inspire">
+                    <h2>Inspire your inspiration</h2>
+                    <h5>Simple to use for your app, products showcase and your inspiration</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                    <!-- it's for icons -->
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fab fa-apple"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fas fa-robot"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fab fa-windows"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- it's for slide image -->
+                <div class="offset-lg-2 col-lg-5">
+                  <div class="tab">
+                    <img src="img/tab.png" alt="tab image not found" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- First Slide end-->
+            <!-- 2nd Slide srat-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-5 col-sm-5 col-5 ml-auto">
+                  <!-- it's for content -->
+                  <div class="Inspire">
+                    <h2>Inspire your inspiration</h2>
+                    <h5>Simple to use for your app, products showcase and your inspiration</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                    <!-- it's for icons -->
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fab fa-apple"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fas fa-robot"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fab fa-windows"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- it's for slide image -->
+                <div class="offset-lg-2 col-lg-5">
+                  <div class="tab">
+                    <img src="img/tab.png" alt="tab image not found" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 2nd Slide end-->
+            <!-- 3rd Slide star-->
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-5 col-sm-5 col-5 ml-auto">
+                  <!-- it's for content -->
+                  <div class="Inspire">
+                    <h2>Inspire your inspiration</h2>
+                    <h5>Simple to use for your app, products showcase and your inspiration</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                    <!-- it's for icons -->
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fab fa-apple"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fas fa-robot"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fab fa-windows"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- it's for slide image -->
+                <div class="offset-lg-2 col-lg-5">
+                  <div class="tab">
+                    <img src="img/tab.png" alt="tab image not found" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 3rd Slide end-->
+          </div>
+          <!-- slide end -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- slider/ banner part -->
+  <!--for js file-->
+  <script src="js/jquery-2.2.4.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
 </body>
+
 </html>
