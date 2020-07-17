@@ -1,4 +1,4 @@
-/*Basic Css Start*/
+/*css Basic Css Start*/
 
 * {
     margin: 0;
@@ -35,8 +35,9 @@ clear {
     overflow: hidden;
 }
 
-/*Basic Css End*/
-/* header area start*/
+/*css Basic Css End*/
+
+/* css header area start*/
 .header-area{
     background: #fcdb00;
     padding: 30px 0;
@@ -50,7 +51,9 @@ clear {
 .manu ul li{
     padding: 0px 30px;
 }
-/* slider area start */
+/* css header area end*/
+
+/* css slider area start */
 .slider{
     background: #fcdb00;
 }
@@ -73,7 +76,141 @@ clear {
 .carousel-indicators li:active{
     background-color: black;
 }
-/* slider area end */
+/* css slider area end */
 
-/* header area end*/
+/* css feature part start */
+.features{
+    padding: 100px;
+}
+.title h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+    font-family: 'PT Sans', sans-serif;
+}
+.title p{
+    padding: 0px 2%;
+    font-size: 25px;
+}
+#tinyone-features-part {
+    margin-top: 120px;
+}
+#tinyone-features-part .tinyone-features-part-top-content .tinyone-features-part-top-content-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+#tinyone-features-part .tinyone-features-part-top-content .tinyone-features-part-top-sub-title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    padding: 0px 158px;
+    color: #010101;
+    line-height: 26px;
+}
+.tinyone-features-part-bottom {
+    margin-top: 100px;
+}
+.tinyone-features-part-bottom .features-bottom-image>img {
+    max-width: 42px;
+}
+.tinyone-features-part-bottom .features-bottom-content>h2 {
+    font-family: 'PT Sans', Regular;
+    font-size: 28px;
+}
+.tinyone-features-part-bottom .features-bottom-content>p {
+    font-family: 'PT Sans', normal;
+    font-size: 18px;
+    padding: 0px 6px;
+}
+.bootom-m-t {
+    margin-top: 65px;
+}
+/* css feature part end*/
+
+ /* css subscription part start */
+ #subscription-part {
+    background: #000000;
+    margin-top: 165px;
+    padding: 100px 0px 0px 0px;
+}
+
+.subscription-part-content>h2 {
+    font-family: 'PT Sans', bold;
+    font-size: 35px;
+    color: #fcdb00;
+    font-weight: bold;
+}
+
+.subscription-part-content>p {
+    font-family: 'PT Sans', normal;
+    font-size: 22px;
+    color: #666666;
+    padding: 0px 110px;
+    line-height: 26px;
+    margin: 25px 0px 44px 0px;
+}
+
+.subscription-from {
+    padding-bottom: 10px;
+}
+
+.subscription-from .custom-subscription-custom {
+    width: 677px;
+    margin: 0 auto;
+    display: inline-block;
+    height: 42px;
+}
+
+.subscription-from .custom-subscription-btn {
+    margin: 0 auto;
+    display: inline-block;
+    background: #fcdb00;
+    color: #000000;
+    padding: 8px 25px;
+    text-transform: uppercase;
+    margin-top: -4px;
+    margin-left: 10px;
+}
+
+/* css subscription part end */
+
+/*footer part start*/
+
+#footer-part {
+    background: #000000;
+    color: #ffffff;
+    padding-bottom: 120px;
+}
+
+.social-icons {
+    padding: 80px 0px 130px 0px;
+}
+
+.social-icons ul>li {
+    background: #fcdb00;
+    border-radius: 20%;
+}
+
+.social-icons ul>li>a>i {
+    color: black;
+    font-size: 26px;
+    padding: 5px 5px;
+}
+
+.footer-menus .info>p {
+    font-family: 'PT Sans', Regular;
+    font-size: 16px;
+    padding-top: 0;
+}
+
+.footer-menus .footer-menu-item>ul>li>a {
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+/*footer part end*/
+
 /*font-family: 'PT Sans', sans-serif;*/
